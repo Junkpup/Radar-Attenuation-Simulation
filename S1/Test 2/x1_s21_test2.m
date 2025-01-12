@@ -1,4 +1,4 @@
-data = readmatrix('/Users/arnav/Downloads/IEM/el/S1/x1_s21_for_test2.csv');
+data = readmatrix('x1_s21_for_test2.csv');
 freq = data(:, 1); 
 S21 = data(:, 2);  
 
