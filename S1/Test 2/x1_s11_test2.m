@@ -3,7 +3,7 @@ freq = data(:, 1);
 S11 = data(:, 2);  
 
 figure;
-plot(freq, S11, 'Color', [0.8, 0.4, 0.3], 'LineWidth', 1.5); % Dark forest green color
+plot(freq, S11, 'Color', [0.8, 0.4, 0.3], 'LineWidth', 1.5); 
 grid on;
 
 xlabel('Frequency (GHz)', 'FontSize', 12);
